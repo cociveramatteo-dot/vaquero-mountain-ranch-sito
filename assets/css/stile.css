@@ -248,3 +248,21 @@ p{margin:0}
 /* Occhiello centrato (hero con logo) */
 .eroe-logo .occhiello{flex-wrap:wrap;justify-content:center;gap:8px 12px;text-align:center}
 .eroe-logo .occhiello::before{display:none}
+
+/* ---------- Foto reali: punto di ritaglio e didascalia nascosta (resta nell'alt) ---------- */
+.foto img.op-35{object-position:50% 35%}
+.foto img.op-50{object-position:50% 50%}
+.foto img.op-55{object-position:50% 55%}
+.foto img.op-60{object-position:50% 60%}
+.foto img.op-62{object-position:50% 62%}
+.foto img.op-68{object-position:50% 68%}
+.foto img.op-72{object-position:50% 72%}
+.foto img.op-85{object-position:50% 85%}
+.foto img + figcaption{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;padding:0;border:0}
+
+/* ---------- Prezzi su richiesta (D-007) ---------- */
+.link-prezzo{color:var(--c-oro);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.chiaro .link-prezzo{color:var(--c-cuoio)}
+.mappa-link{display:flex;align-items:center;justify-content:center;min-height:120px}
+.prezzi{min-width:0}
+.prezzi td{white-space:normal}
